@@ -4,4 +4,4 @@ from datetime import datetime
 def get_time():
     now = datetime.now()
     current_time = now.strftime("%H:%M:%S")
-    print("Current Time =", current_time)
+# detect when disconnected and add time to an array
