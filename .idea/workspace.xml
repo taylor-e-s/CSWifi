@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0141cec7-9853-4af1-b499-121329476dbf" name="Default Changelist" comment="Testing read me">
+    <list default="true" id="0141cec7-9853-4af1-b499-121329476dbf" name="Default Changelist" comment="removing test comment">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +45,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615810302066</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="removing test comment">
+      <created>1615810442508</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615810442508</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -62,6 +69,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Testing read me" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing read me" />
+    <MESSAGE value="removing test comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="removing test comment" />
   </component>
 </project>
