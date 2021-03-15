@@ -5,6 +5,7 @@ parent = tkinter.Tk()
 parent.overrideredirect(1)
 parent.iconbitmap("PythonIcon.ico")
 parent.withdraw()
+from tkinter import messagebox
 
 def get_time():
     now = datetime.now()
@@ -12,5 +13,4 @@ def get_time():
     print("Current Time =", current_time)
 
 def disconnection_warning():
-    from tkinter import messagebox
     yesno = messagebox.askyesno('Your internet connection has been lost.', 'Would you like to reconnect it?', parent=parent)
