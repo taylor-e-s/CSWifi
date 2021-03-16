@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0141cec7-9853-4af1-b499-121329476dbf" name="Default Changelist" comment="start of wifi connection">
+    <list default="true" id="0141cec7-9853-4af1-b499-121329476dbf" name="Default Changelist" comment="Defining get_time()&#10;&#10;Defining disconnection_warning()">
       <change beforePath="$PROJECT_DIR$/CSWifi.py" beforeDir="false" afterPath="$PROJECT_DIR$/CSWifi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,14 +80,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615810442508</updated>
     </task>
-    <task id="LOCAL-00003" summary="start of wifi connection">
-      <created>1615896338708</created>
+    <task id="LOCAL-00003" summary="Defining get_time()&#10;&#10;Defining disconnection_warning()">
+      <created>1615813323900</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1615896338708</updated>
+      <updated>1615813323900</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Defining get_time()&#10;&#10;Defining disconnection_warning()">
+      <created>1615813417929</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615813417929</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,18 +112,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Testing read me" />
     <MESSAGE value="removing test comment" />
-    <MESSAGE value="start of wifi connection" />
-    <option name="LAST_COMMIT_MESSAGE" value="start of wifi connection" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <default-breakpoints>
-        <breakpoint type="python-exception">
-          <properties notifyOnTerminate="true" exception="BaseException">
-            <option name="notifyOnTerminate" value="true" />
-          </properties>
-        </breakpoint>
-      </default-breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Defining get_time()&#10;&#10;Defining disconnection_warning()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Defining get_time()&#10;&#10;Defining disconnection_warning()" />
   </component>
 </project>
