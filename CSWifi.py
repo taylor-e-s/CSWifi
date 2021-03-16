@@ -15,5 +15,3 @@ def disconnection_warning():
     yesno = messagebox.askyesno('Your internet connection has been lost.', 'Would you like to reconnect it?', parent=parent)
 
 #attempting to connecting to wifi
-from wifi import Cell, Scheme
-Cell.all('wlan0')
