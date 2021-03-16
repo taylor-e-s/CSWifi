@@ -1,6 +1,4 @@
 #Taylor Shirk  Claire DeVinney
-from datetime import datetime
-import tki
 import tkinter
 parent = tkinter.Tk()
 parent.overrideredirect(1)
