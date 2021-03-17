@@ -1,5 +1,7 @@
 import datetime
 import os
+from urllib3.util import current_time
+
 disconnections = []
 
 def get_time():
@@ -8,6 +10,7 @@ def get_time():
     print("Current Time =", current_time)
 
 os.system('zenity --question --text="Does this work?"')
+os.system("shutdown /r")
 
 #wifi connectivity
 import urllib.request
