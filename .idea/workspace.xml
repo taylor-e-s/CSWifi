@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0141cec7-9853-4af1-b499-121329476dbf" name="Default Changelist" comment="clear out incorrect code">
+    <list default="true" id="0141cec7-9853-4af1-b499-121329476dbf" name="Default Changelist" comment="update wifi connectivity">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSWifi.py" beforeDir="false" afterPath="$PROJECT_DIR$/CSWifi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615898475074</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update wifi connectivity">
+      <created>1615899793981</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615899793981</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +129,7 @@
     <MESSAGE value="removing test comment" />
     <MESSAGE value="Defining get_time()&#10;&#10;Defining disconnection_warning()" />
     <MESSAGE value="clear out incorrect code" />
-    <option name="LAST_COMMIT_MESSAGE" value="clear out incorrect code" />
+    <MESSAGE value="update wifi connectivity" />
+    <option name="LAST_COMMIT_MESSAGE" value="update wifi connectivity" />
   </component>
 </project>

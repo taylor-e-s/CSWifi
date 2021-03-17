@@ -1,7 +1,8 @@
 import datetime
+disconnections = []
 
 def get_time():
-    now = datetime.now()
+    now = datetime.time()
     current_time = now.strftime("%H:%M:%S")
     print("Current Time =", current_time)
 
@@ -10,7 +11,7 @@ import urllib.request
 def connect(host='http://google.com'):
     try:
         urllib.request.urlopen(host)
-        return True
+        print("True")
     except:
-        return False
+        disconnections.append(current_time)
 
