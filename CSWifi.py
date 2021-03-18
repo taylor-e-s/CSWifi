@@ -8,7 +8,7 @@ def get_time():
     current_time = now.strftime("%H:%M:%S")
 
 os.system('zenity --question --text="Does this work?"')
-os.system("shutdown /r")
+os.system("shutdown -r")
 
 #wifi connectivity
 import urllib.request
