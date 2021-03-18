@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0141cec7-9853-4af1-b499-121329476dbf" name="Default Changelist" comment="clear out incorrect code">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0141cec7-9853-4af1-b499-121329476dbf" name="Default Changelist" comment="clear out incorrect code" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,7 +106,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615985917422</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="rearranging code">
+      <created>1616069654175</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1616069654175</updated>
+    </task>
+    <task id="LOCAL-00008" summary="rearranging code again">
+      <created>1616069742890</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1616069742890</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +140,8 @@
     <MESSAGE value="removing test comment" />
     <MESSAGE value="Defining get_time()&#10;&#10;Defining disconnection_warning()" />
     <MESSAGE value="clear out incorrect code" />
-    <option name="LAST_COMMIT_MESSAGE" value="clear out incorrect code" />
+    <MESSAGE value="rearranging code" />
+    <MESSAGE value="rearranging code again" />
+    <option name="LAST_COMMIT_MESSAGE" value="rearranging code again" />
   </component>
 </project>
