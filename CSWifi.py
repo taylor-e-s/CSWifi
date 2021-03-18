@@ -25,7 +25,7 @@ def detect(host='http://google.com'):
         return True
     except:
         add_time()
-        if ask_question() = True:
+        if ask_question() == True:
             #os.system("shutdown -r")
             os.system('netsh interface set interface "Wi-Fi" disable')
             os.system('netsh interface set interface "Wi-Fi" enable')
