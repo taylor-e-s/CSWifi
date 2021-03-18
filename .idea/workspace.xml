@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0141cec7-9853-4af1-b499-121329476dbf" name="Default Changelist" comment="clear out incorrect code">
+    <list default="true" id="0141cec7-9853-4af1-b499-121329476dbf" name="Default Changelist" comment="fix equal sing bug for ask question">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSWifi.py" beforeDir="false" afterPath="$PROJECT_DIR$/CSWifi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +123,21 @@
       <option name="project" value="LOCAL" />
       <updated>1616069742890</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="start wifi reconnect code">
+      <created>1616070385363</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1616070385363</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fix equal sing bug for ask question">
+      <created>1616070480462</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1616070480462</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +159,8 @@
     <MESSAGE value="clear out incorrect code" />
     <MESSAGE value="rearranging code" />
     <MESSAGE value="rearranging code again" />
-    <option name="LAST_COMMIT_MESSAGE" value="rearranging code again" />
+    <MESSAGE value="start wifi reconnect code" />
+    <MESSAGE value="fix equal sing bug for ask question" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix equal sing bug for ask question" />
   </component>
 </project>
