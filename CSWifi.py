@@ -31,9 +31,9 @@ def detect(host='http://google.com'):
         urllib.request.urlopen(host)
         return True
     except:
-
-        return False
         add_time()
+        return False
+
 
 def reconnect():
     os.system('netsh interface set interface "Wi-Fi" disable')
