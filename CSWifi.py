@@ -1,7 +1,7 @@
 import datetime
 import os
 import urllib.request
-from urllib3.util import current_time
+
 disconnections = []
 
 
