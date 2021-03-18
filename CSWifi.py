@@ -4,6 +4,7 @@ import urllib.request
 from urllib3.util import current_time
 disconnections = []
 
+detect()
 
 def add_time():
     now = datetime.time()
@@ -31,7 +32,6 @@ def detect(host='http://google.com'):
         return True
     except:
         add_time()
-        if ask_reconnection() == True:
 
 def reconnect():
     os.system('netsh interface set interface "Wi-Fi" disable')

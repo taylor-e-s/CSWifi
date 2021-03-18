@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0141cec7-9853-4af1-b499-121329476dbf" name="Default Changelist" comment="define reconnect and restart">
-      <change beforePath="$PROJECT_DIR$/CSWifi.py" beforeDir="false" afterPath="$PROJECT_DIR$/CSWifi.py" afterDir="false" />
-    </list>
+    <list default="true" id="0141cec7-9853-4af1-b499-121329476dbf" name="Default Changelist" comment="finish wifi connect and reconnect" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
