@@ -1,4 +1,5 @@
 import datetime
+import time
 import os
 import urllib.request
 
@@ -7,7 +8,7 @@ disconnections = []
 while detect() == False:
     if ask_reconnect() == True:
         reconnect()
-        sleep(5)
+        time.sleep(5)
     else:
         if detect() == False:
             if ask_restart() == True:
