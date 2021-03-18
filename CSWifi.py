@@ -10,14 +10,14 @@ def main():
         if ask_reconnect() == True:
             reconnect()
             time.sleep(5)
-        else:
-            time.sleep(300)
-            main()
             if detect() == False:
                 if ask_restart() == True:
                     restart()
                 else:
             else:
+        else:
+            time.sleep(300)
+            main()
 
 def add_time():
     now = datetime.time()
