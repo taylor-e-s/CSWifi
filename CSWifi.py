@@ -32,7 +32,11 @@ def detect(host='http://google.com'):
     except:
         add_time()
         if ask_question() == True:
-            os.system('netsh interface set interface "Wi-Fi" disable')
-            os.system('netsh interface set interface "Wi-Fi" enable')
-            os.system('netsh wlan connect name="student"')
-            os.system("shutdown -r")
+
+def reconnect():
+    os.system('netsh interface set interface "Wi-Fi" disable')
+    os.system('netsh interface set interface "Wi-Fi" enable')
+    os.system('netsh wlan connect name="student"')
+
+def restart():
+    os.system("shutdown -r")

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0141cec7-9853-4af1-b499-121329476dbf" name="Default Changelist" comment="fix equal sing bug for ask question">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSWifi.py" beforeDir="false" afterPath="$PROJECT_DIR$/CSWifi.py" afterDir="false" />
-    </list>
+    <list default="true" id="0141cec7-9853-4af1-b499-121329476dbf" name="Default Changelist" comment="finish wifi connect and reconnect" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616070480462</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="finish wifi connect and reconnect">
+      <created>1616070725440</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1616070725440</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,6 +165,7 @@
     <MESSAGE value="rearranging code again" />
     <MESSAGE value="start wifi reconnect code" />
     <MESSAGE value="fix equal sing bug for ask question" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix equal sing bug for ask question" />
+    <MESSAGE value="finish wifi connect and reconnect" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish wifi connect and reconnect" />
   </component>
 </project>
