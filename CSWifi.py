@@ -1,7 +1,7 @@
 import datetime
 import os
 import urllib.request
-from urllib3.util import current_time
+
 disconnections = []
 
 detect()
@@ -31,6 +31,8 @@ def detect(host='http://google.com'):
         urllib.request.urlopen(host)
         return True
     except:
+
+        return False
         add_time()
 
 def reconnect():
