@@ -5,9 +5,10 @@ from urllib3.util import current_time
 disconnections = []
 
 
-def get_time():
+def add_time():
     now = datetime.time()
     current_time = now.strftime("%H:%M:%S")
+    disconnections.append(current_time)
 
 def ask_question():
     if os.system('zenity --question --text="Your internet connection has been lost. Would you like to reconnect?"'): #if 'No' is clicked
@@ -23,6 +24,6 @@ def connect(host='http://google.com'):
         urllib.request.urlopen(host)
         return True
     except:
-        disconnections.append(current_time)
+        add_time()
         ask_question()
 
