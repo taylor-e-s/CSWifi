@@ -8,10 +8,12 @@ while detect() == False:
     if ask_reconnect() == True:
         reconnect()
         sleep(5)
+    else:
         if detect() == False:
             if ask_restart() == True:
                 restart()
-
+            else:
+        else:
 
 def add_time():
     now = datetime.time()
@@ -21,6 +23,7 @@ def add_time():
 def ask_reconnect():
     if os.system('zenity --question --text="Your internet connection has been lost. Would you like to reconnect?"'): #if 'No' is clicked
         os.system('zenity --info --text="You have chosen not to reconnect."')
+        return False
     else: #if 'Yes' is clicked
         os.system('zenity --info --text="Reconnecting..."')
         return True
@@ -28,6 +31,7 @@ def ask_reconnect():
 def ask_restart():
     if os.system('zenity --question --text="Reconnection failed. Would you like to restart?"'): #if 'No' is clicked
         os.system('zenity --info --text="You have chosen not to restart."')
+        return False
     else: #if 'Yes' is clicked
         os.system('zenity --info --text="Restarting..."')
         return True
