@@ -5,6 +5,7 @@ import urllib.request
 
 disconnections = []
 
+def main():
     while detect() == False:
         if ask_reconnect() == True:
             reconnect()
