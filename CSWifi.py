@@ -24,14 +24,14 @@ def ask_restart():
         os.system('zenity --info --text="Restarting..."')
         return True
 
-#wifi connectivity
+
 def detect(host='http://google.com'):
     try:
         urllib.request.urlopen(host)
         return True
     except:
         add_time()
-        if ask_question() == True:
+        if ask_reconnection() == True:
 
 def reconnect():
     os.system('netsh interface set interface "Wi-Fi" disable')
