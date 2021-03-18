@@ -5,16 +5,18 @@ import urllib.request
 
 disconnections = []
 
-while detect() == False:
-    if ask_reconnect() == True:
-        reconnect()
-        time.sleep(5)
-    else:
-        if detect() == False:
-            if ask_restart() == True:
-                restart()
-            else:
+    while detect() == False:
+        if ask_reconnect() == True:
+            reconnect()
+            time.sleep(5)
         else:
+            time.sleep(300)
+            main()
+            if detect() == False:
+                if ask_restart() == True:
+                    restart()
+                else:
+            else:
 
 def add_time():
     now = datetime.time()
