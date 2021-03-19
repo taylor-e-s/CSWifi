@@ -13,6 +13,9 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/CSWifi.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1pc2tAnqes3wkggHj2PDaWt2GLB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
@@ -242,16 +245,5 @@
     <MESSAGE value="fixes" />
     <MESSAGE value="adding ask_restart" />
     <option name="LAST_COMMIT_MESSAGE" value="adding ask_restart" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/CSWifi.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

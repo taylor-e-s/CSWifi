@@ -2,7 +2,6 @@ import datetime
 import time
 import os
 import urllib.request
-import sys
 
 disconnections = []
 
@@ -19,13 +18,14 @@ def main():
                         time.sleep(300)
             else:
                 time.sleep(300)
-    time.sleep(20)
+        time.sleep(20)
 
 
 def add_time():
     now = datetime.time()
     current_time = now.strftime("%H:%M:%S")
     disconnections.append(current_time)
+    os.system('zenity --info --text=disconnections')
 
 def ask_reconnect():
     if os.system('zenity --question --text="Your internet connection has been lost. Would you like to reconnect?"'): #if 'No' is clicked
