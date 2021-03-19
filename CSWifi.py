@@ -14,7 +14,9 @@ def main():
                 if ask_restart() == True:
                     restart()
                 else:
+                    sys.exit()
             else:
+                sys.exit()
         else:
             time.sleep(300)
             main()
