@@ -8,6 +8,7 @@ disconnections = []
 
 def main():
     while True:
+        time.sleep(20)
         if not detect():
             if ask_reconnect():
                 reconnect()
@@ -19,7 +20,6 @@ def main():
                         time.sleep(300)
             else:
                 time.sleep(300)
-        time.sleep(20)
 
 
 def add_time():
