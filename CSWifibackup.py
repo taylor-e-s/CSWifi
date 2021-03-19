@@ -6,7 +6,7 @@ import urllib.request
 disconnections = []
 
 def main():
-    if detect() == False:
+    while detect() == False:
         if ask_reconnect() == True:
             reconnect()
             time.sleep(5)
@@ -14,9 +14,7 @@ def main():
                 if ask_restart() == True:
                     restart()
                 else:
-                    sys.exit()
             else:
-                sys.exit()
         else:
             time.sleep(300)
             main()
@@ -58,4 +56,4 @@ def reconnect():
     os.system('netsh wlan connect name="student"')
 
 def restart():
-    os.system("shutdown -r /t 0")
+    os.system("shutdown -r")
