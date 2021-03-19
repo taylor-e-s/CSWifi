@@ -2,24 +2,23 @@ import datetime
 import time
 import os
 import urllib.request
+import sys
 
 disconnections = []
 
 def main():
-    while detect() == False:
-        if ask_reconnect() == True:
-            reconnect()
-            time.sleep(5)
-            if detect() == False:
-                if ask_restart() == True:
-                    restart()
-                else:
-                    sys.exit()
+    while True:
+        if detect() == False:
+            if ask_reconnect() == True:
+                reconnect()
+                time.sleep(5)
+                if detect() == False:
+                    if ask_restart() == True:
+                        restart()
             else:
-                sys.exit()
-        else:
-            time.sleep(300)
-            main()
+                time.sleep(300)
+    time.sleep(20)
+
 
 def add_time():
     now = datetime.time()
@@ -42,7 +41,6 @@ def ask_restart():
         os.system('zenity --info --text="Restarting..."')
         return True
 
-
 def detect(host='http://google.com'):
     try:
         urllib.request.urlopen(host)
@@ -51,7 +49,6 @@ def detect(host='http://google.com'):
         add_time()
         return False
 
-
 def reconnect():
     os.system('netsh interface set interface "Wi-Fi" disable')
     os.system('netsh interface set interface "Wi-Fi" enable')
@@ -59,3 +56,5 @@ def reconnect():
 
 def restart():
     os.system("shutdown -r")
+
+main()
