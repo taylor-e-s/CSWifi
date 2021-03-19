@@ -20,7 +20,6 @@ def main():
                 time.sleep(300)
         time.sleep(20)
 
-
 def add_time():
     now = datetime.time()
     current_time = now.strftime("%H:%M:%S")
@@ -32,7 +31,6 @@ def ask_reconnect():
         os.system('zenity --info --text="You have chosen not to reconnect."')
         return False
     else: #if 'Yes' is clicked
-        os.system('zenity --info --text="Reconnecting..."')
         return True
 
 def ask_restart():
@@ -40,7 +38,6 @@ def ask_restart():
         os.system('zenity --info --text="You have chosen not to restart."')
         return False
     else: #if 'Yes' is clicked
-        os.system('zenity --info --text="Restarting..."')
         return True
 
 def detect(host='http://google.com'):
