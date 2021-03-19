@@ -15,6 +15,8 @@ def main():
                 if detect() == False:
                     if ask_restart() == True:
                         restart()
+                    else:
+                        time.sleep(300)
             else:
                 time.sleep(300)
     time.sleep(20)
