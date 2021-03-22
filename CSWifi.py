@@ -5,11 +5,11 @@ import urllib.request
 
 disconnections = []
 
-name = ['Claire', 'Taylor']
-os.system('zenity --list --title="Disconnection Times" --column="Disconnection Times" (' '.join(name))')
-
 
 def main():
+    file1 = open("Disconnections.txt", "w")
+    file1.writelines(Disconnection Times)
+    file1.close()
     while True:
         time.sleep(20)
         if not detect():
@@ -30,7 +30,9 @@ def add_time():
     now = datetime.time()
     current_time = now.strftime("%H:%M:%S")
     disconnections.append(current_time)
-    os.system('zenity --info --text=disconnections')
+    file1 = open("Disconnections.txt", "a")  # append mode
+    file1.write(current_time)
+    file1.close()
 
 
 def ask_reconnect():
