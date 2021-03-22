@@ -5,6 +5,9 @@ import urllib.request
 
 disconnections = []
 
+name = ['Claire', 'Taylor']
+os.system('zenity --list --title="Disconnection Times" --column="Disconnection Times" (' '.join(name))')
+
 
 def main():
     while True:
