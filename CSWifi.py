@@ -61,7 +61,7 @@ def reconnect():
 
 
 def restart():
-    os.system("shutdown -r /t 0")
+    os.system("shutdown /r /t 5")
 
 
 main()
